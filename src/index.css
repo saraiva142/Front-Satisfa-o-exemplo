@@ -1,0 +1,28 @@
+:root {
+  --card-shadow: 0 8px 30px rgba(0, 0, 0, 0.265);
+  --input-shadow: 0 2px 10px rgba(0, 0, 0, 0.265);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #fff;
+}
+
+/* Sombra dos quadros */
+.ant-card {
+  box-shadow: var(--card-shadow);
+  border: 1px solid #d9d9d9;
+  border-radius: 16px;
+}
+
+/* Sombra dos inputs e date pickers */
+.ant-input,
+.ant-picker {
+  box-shadow: var(--input-shadow);
+}
+
+.ant-upload-select {
+  box-shadow: var(--input-shadow);
+  border-radius: 12px !important;
+}

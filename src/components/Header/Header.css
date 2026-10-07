@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  height: 100px;
+  padding: 0 24px;
+  background: rgba(18, 72, 26, 1);
+}
+
+.header__logo {
+  height: 80px;
+}
+
+.header__title.ant-typography {
+  margin: 0;
+  color: #fff;
+}
