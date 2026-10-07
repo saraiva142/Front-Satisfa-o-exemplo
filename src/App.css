@@ -6,3 +6,8 @@
   margin: 32px auto;
   padding: 0 24px;
 }
+
+.survey {
+  max-width: 900px;
+  margin: 0 auto;
+}

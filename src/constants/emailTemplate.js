@@ -1,0 +1,1 @@
+export const EMAIL_SUBJECT = 'Pesquisa de Satisfação – Concessão de Aposentadoria';

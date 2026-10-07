@@ -14,5 +14,9 @@ export const antdTheme = {
       boxShadowTertiary: CARD_SHADOW,
       borderRadiusLG: 16,
     },
+    Menu: {
+      itemSelectedBg: 'transparent',
+      itemSelectedColor: PRIMARY_COLOR,
+    },
   },
 };

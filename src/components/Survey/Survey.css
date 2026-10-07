@@ -1,0 +1,23 @@
+.survey__text .ant-typography {
+  margin-bottom: 12px;
+}
+
+.survey__legend {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.survey .ant-form-item-label > label {
+  height: auto;
+}
+
+.survey .ant-alert-warning {
+  background: #fffbe6;
+  box-shadow: var(--card-shadow);
+}
+
+.survey__actions {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -8,7 +8,7 @@ export default function AttachmentUpload({ value, onChange }) {
       fileList={value}
       onChange={({ fileList }) => onChange?.(fileList)}
       beforeUpload={() => false} // evita upload automático
-      maxCount={1}
+      maxCount={4}
     >
       {!value?.length && <PlusOutlined style={{ fontSize: 32 }} />}
     </Upload>
